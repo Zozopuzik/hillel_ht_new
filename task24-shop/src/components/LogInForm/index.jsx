@@ -13,7 +13,6 @@ export default function LogInForm() {
   const emails = useSelector((state) => state.emails.data);
   const dispatch = useDispatch();
   let navigate = useNavigate();
-  console.log('changes')
   const [userData, setuserData] = useState({
     email: "",
     password: "",
